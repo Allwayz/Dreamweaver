@@ -1,19 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-pp {
-	hight: 75%;
-	width: 75%;
-	background-color: #0088DD;
-}
-
-
-
-
-
-
-
-
 
 .dropbtn {
     background-color: #4CAF50;
@@ -55,10 +42,24 @@ pp {
 }
 
 
+pp {
+	hight: 75%;
+	width: 75%;
+	background-color: #0088DD;
+}
+
 
 p a:hover {
 	color: burlywood
 }
+
+p.floatright{
+	text-align: right;
+}
+
+
+
+
 
 
 .countryTable{
@@ -84,6 +85,81 @@ p a:hover {
 	background-color: aquamarine;
 	column-span: all;
 }
+
+
+
+
+
+
+
+.topTempertireTable{
+	background-color: aquamarine;
+	border-bottom-style: hidden;
+	
+	
+}
+
+
+
+.basicTable{
+	align-content: center;
+	width:75%;
+	line-height: 60px;
+	border-style: double;
+	border-weidth:2px;
+	border-color: black;
+	
+}
+
+
+.td{
+	border:solid 1px black;
+}
+
+
+
+.topCityTable{
+	background-color: aquamarine;
+	border-style: hidden;
+	height: 20px;
+	width: 100%;
+	
+}
+
+
+
+
+.test{
+	background-color: aqua; 
+	align-content: center;
+	border-style: double;
+	border-color: black;
+	width: 75%;
+	line-height: 50px;
+	border-collapse:inherit;
+	table-layout: fixed;
+	
+	
+}
+
+td,tr.test01{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
