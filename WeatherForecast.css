@@ -57,6 +57,9 @@ p.floatright{
 	text-align: right;
 }
 
+p.floatleft{
+	text-align: left;
+}
 
 
 
@@ -82,8 +85,8 @@ p.floatright{
 }
 
 .datePreview{
-	background-color: aquamarine;
-	column-span: all;
+	background-color: #FFEBCD;
+	
 }
 
 
@@ -130,8 +133,8 @@ p.floatright{
 
 
 .test{
+	
 	background-color: aqua; 
-	align-content: center;
 	border-style: double;
 	border-color: black;
 	width: 75%;
@@ -143,10 +146,36 @@ p.floatright{
 }
 
 td,tr.test01{
+	text-align: center;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
